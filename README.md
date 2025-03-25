@@ -51,7 +51,7 @@ This project focuses on building robust machine learning models to detect fraudu
 - **Local SHAP Waterfall**: Visualized feature contributions for individual fraud predictions.
 
 <p align="center">
-  <img src="assets/shap_bar_plot.png" alt="SHAP Bar Plot" width="500"/>
+  <img src="assets/Shap_Bar_Plot.png" alt="SHAP Bar Plot" width="500"/>
   <br/>
   <img src="assets/shap_waterfall.png" alt="SHAP Waterfall" width="500"/>
 </p>
