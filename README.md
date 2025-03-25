@@ -73,4 +73,24 @@ This project focuses on building robust machine learning models to detect fraudu
 
 ## 📁 Project Structure
 
-<pre> 📁 **Project Structure** ``` fraud-detection-2023/ │ ├── notebooks/ # Jupyter notebooks for EDA & model pipeline │ └── EDA_and_Modeling.ipynb │ ├── scripts/ # Python modules for modular training & evaluation │ ├── model_training.py │ ├── cost_analysis.py │ ├── shap_explainer.py │ └── data_load.py │ ├── assets/ # Visuals for README or reporting (e.g. SHAP, cost curve) │ └── [SHAP plot].png │ ├── requirements.txt # Python package dependencies └── README.md # Project overview, usage and results ``` </pre>
+fraud-detection-2023/
+│
+├── notebooks/                  # Jupyter notebooks for EDA & model pipeline
+│   └── EDA_and_Modeling.ipynb
+│
+├── scripts/                    # Python modules for modular training & evaluation
+│   ├── model_training.py
+│   ├── cost_analysis.py
+│   ├── shap_explainer.py
+│   └── data_load.py
+│
+├── assets/                     # Visuals for README or reporting (e.g. SHAP, cost curve)
+│   ├── shap_summary.png
+│   ├── shap_waterfall.png
+│   └── cost_curve.png
+│
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project overview and instructions
+
+> 📁 `data/` folder is excluded due to GitHub’s 100MB file limit.  
+> Please download the dataset manually from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) and place it locally to run the code.
