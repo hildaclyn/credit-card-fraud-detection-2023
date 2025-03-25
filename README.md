@@ -73,14 +73,4 @@ This project focuses on building robust machine learning models to detect fraudu
 
 ## 📁 Project Structure
 
-📦 fraud-detection-2023/
-├── data/
-│   └── creditcard_2023.csv
-├── notebooks/
-│   └── EDA_and_Modeling.ipynb
-├── model_training.py
-├── data_load.py
-├── shap_explainer.py
-├── cost_analysis.py
-├── requirements.txt
-└── README.md
+<pre> 📁 **Project Structure** ``` fraud-detection-2023/ │ ├── notebooks/ # Jupyter notebooks for EDA & model pipeline │ └── EDA_and_Modeling.ipynb │ ├── scripts/ # Python modules for modular training & evaluation │ ├── model_training.py │ ├── cost_analysis.py │ ├── shap_explainer.py │ └── data_load.py │ ├── assets/ # Visuals for README or reporting (e.g. SHAP, cost curve) │ └── [SHAP plot].png │ ├── requirements.txt # Python package dependencies └── README.md # Project overview, usage and results ``` </pre>
